@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal Portfolio Website | Muhammad Abbas</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script type="module"
+		src="https://cdn.jsdelivr.net/npm/@mariohamann/activity-graph/dist/activity-graph.min.js"></script>
+</head>
+
+<body class="">
+
+	<div class="container">
+		<nav class="navbar">
+			<div class="box theme">
+				<div class="item" onclick="theme()">
+					<ion-icon id="lightBtn" name="sunny-outline"></ion-icon>
+					<ion-icon id="darkBtn" name="moon-outline" style="display: none;"></ion-icon>
+				</div>
+			</div>
+			<div class="box nav">
+				<div class="item active">
+					<a href="#about">
+						<ion-icon name="person-circle-outline"></ion-icon>
+						<p>about</p>
+					</a>
+					<div class="divider rtl"></div>
+				</div>
+				<div class="item">
+					<a href="#resume">
+						<ion-icon name="file-tray-full-outline"></ion-icon>
+						<p>resume</p>
+					</a>
+					<div class="divider rtl"></div>
+				</div>
+				<div class="item">
+					<a href="#projects">
+						<ion-icon name="layers-outline"></ion-icon>
+						<p>projects</p>
+					</a>
+					<div class="divider rtl"></div>
+				</div>
+				<div class="item">
+					<a href="#blogs">
+						<ion-icon name="reader-outline"></ion-icon>
+						<p>blogs</p>
+					</a>
+					<div class="divider rtl"></div>
+				</div>
+				<div class="item">
+					<a href="#contact">
+						<ion-icon name="paper-plane-outline"></ion-icon>
+						<p>contact</p>
+					</a>
+					<div class="divider rtl"></div>
+				</div>
+			</div>
+		</nav>
+		<div class="box profile">
+
+			<img class="header" src="img/cover.jpg" alt="">
+			<img class="img" src="img/avatar.png" alt="">
+			<h2>Muhammad Abbas</h2>
+			<p id="typed" class="colored">Full-Stack Web Developer</p>
+
+
+			<ul>
+				<li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+				<li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+				<li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+				<li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+			</ul>
+
+			<div class="footer">
+				<div class="divider rtl"></div>
+				<table>
+					<tr>
+						<td><a href="#">My Resume<ion-icon name="file-tray-full-outline"></ion-icon></a></td>
+						<td><a href="#">Contact Me<ion-icon name="call-outline"></ion-icon></a></td>
+					</tr>
+				</table>
+			</div>
+
+		</div>
+
+
+
+		<!-- body content -->
+
+		<div class="box content">
+
+			<div class="wrapper">
+
+
+				<h2 id="about">Hey <span class="colored">there!</span> 👋</h2>
+				<div class="divider ltr"></div>
+				<p>I'm thrilled to tell you a bit about myself. I have over 6 years of IT experience, specializing in
+					<span class="colored">MERN Stack Development, and open-source frameworks.</span> If you're in need
+					of a
+					motivated team player, lets Connect!
+				</p>
+
+
+				<!-- achivements -->
+				<section class="achivements">
+					<div>
+						<h3><ion-icon name="layers-outline"></ion-icon> 2K+</h3>
+						<p>Website Designed</p>
+					</div>
+					<div>
+						<h3><ion-icon name="briefcase-outline"></ion-icon> 5+</h3>
+						<p>Years of Experience</p>
+					</div>
+					<div>
+						<h3><ion-icon name="rocket-outline"></ion-icon> 4K</h3>
+						<p>Completed Projects</p>
+					</div>
+				</section>
+
+				<!-- skills -->
+				<h2>My <span class="colored">Skills</span></h2>
+				<div class="divider ltr"></div>
+
+				<section class="skills">
+					<div>
+						<ion-icon name="logo-html5"></ion-icon>
+						<p>HTML5</p>
+					</div>
+					<div>
+						<ion-icon name="logo-css3"></ion-icon>
+						<p>CSS</p>
+					</div>
+					<div>
+						<ion-icon name="logo-react"></ion-icon>
+						<p>React</p>
+					</div>
+					<div>
+						<ion-icon name="logo-python"></ion-icon>
+						<p>Python</p>
+					</div>
+					<div>
+						<div class="circle" style="--percent: 65%;">
+							<h4>65<small>%</small></h4>
+						</div>
+						<p>MYSQL</p>
+					</div>
+					<div>
+						<div class="circle" style="--percent: 85%;">
+							<h4>85<small>%</small></h4>
+						</div>
+						<p>MYSQL</p>
+					</div>
+					<div>
+						<div class="progress-bar">
+							<p>Node Js <span>90%</span></p>
+							<progress max="100" value="90"></progress>
+						</div>
+						<div class="progress-bar">
+							<p>PostgreSQL <span>75%</span></p>
+							<progress max="100" value="75"></progress>
+						</div>
+					</div>
+
+				</section>
+
+				<!-- Experience -->
+
+				<h2 id="resume">My <span class="colored">Experience</span></h2>
+				<div class="divider ltr"></div>
+
+				<section class="experiences">
+					<div class="experience">
+						<h2>Senior Python Developer</h2>
+						<h4>Google Inc. <span class="date">Oct, 2019</span> &#x26AC; <span class="date">Dec, 2022</span>
+						</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consequatur obcaecati magni,
+							in
+							odio, blanditiis quos similique odit adipisci, laudantium maxime explicabo accusantium
+							dolorem
+							voluptatum ut illum tenetur? Incidunt, illo!</p>
+					</div>
+					<div class="experience">
+						<h2>Database Developer</h2>
+						<h4>Funvary Inc. <span class="date">Jan, 2019</span> &#x26AC; <span class="date">Dec,
+								2021</span>
+						</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis totam optio sequi quis
+							quaerat
+							odit itaque architecto voluptatum, tempore cupiditate, adipisci molestias distinctio,
+							explicabo
+							vero ad. Omnis qui vitae non.</p>
+					</div>
+					<div class="experience">
+						<h2>Full Stack Web Developer</h2>
+						<h4>Microsoft Inc. <span class="date">Oct, 2023</span> &#x26AC; <span class="date">July,
+								2040</span>
+						</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis totam optio sequi quis
+							quaerat
+							odit itaque architecto voluptatum, tempore cupiditate, adipisci molestias distinctio,
+							explicabo
+							vero ad. Omnis qui vitae non.</p>
+					</div>
+				</section>
+
+				<h1>My <span class="colored">Contributions</span></h1>
+				<div class="divider ltr"></div>
+
+				<!-- Contributions -->
+
+				<section class="contribution">
+					<div class="wrapper">
+						<activity-graph range-start="2021-01-01" range-end="2021-12-31" activity-levels="0,1,2,3,5"
+							activity-data="
+							2021-01-01,2021-01-01,2021-01-01,2021-01-03,2021-01-04,2021-01-06,2021-01-06,2021-01-07,2021-01-08,2021-01-08,2021-01-09,2021-01-12,2021-01-14,2021-01-14,2021-01-15,2021-01-16,2021-01-16,2021-01-18,2021-01-18,2021-01-19,2021-01-22,2021-01-22,2021-01-22,2021-01-22,2021-01-24,2021-01-24,2021-01-25,2021-01-25,2021-01-27,2021-01-28,2021-01-29,2021-01-30,2021-01-31,2021-02-01,2021-02-03,2021-02-03,2021-02-05,2021-02-06,2021-02-07,2021-02-10,2021-02-10,2021-02-10,2021-02-10,2021-02-11,2021-02-12,2021-02-13,2021-02-13,2021-02-13,2021-02-14,2021-02-15,2021-02-16,2021-02-16,2021-02-18,2021-02-20,2021-02-21,2021-02-23,2021-02-23,2021-02-23,2021-02-25,2021-02-25,2021-02-26,2021-02-27,2021-03-01,2021-03-01,2021-03-02,2021-03-04,2021-03-05,2021-03-07,2021-03-09,2021-03-09,2021-03-10,2021-03-11,2021-03-11,2021-03-11,2021-03-13,2021-03-13,2021-03-14,2021-03-16,2021-03-17,2021-03-18,2021-03-20,2021-03-21,2021-03-22,2021-03-22,2021-03-22,2021-03-23,2021-03-24,2021-03-25,2021-03-26,2021-03-28,2021-03-28,2021-03-28,2021-03-28,2021-03-30,2021-03-30,2021-04-01,2021-04-03,2021-04-04,2021-04-05,2021-04-06,2021-04-08,2021-04-09,2021-04-09,2021-04-10,2021-04-10,2021-04-10,2021-04-12,2021-04-13,2021-04-14,2021-04-15,2021-04-16,2021-04-17,2021-04-17,2021-04-18,2021-04-19,2021-04-21,2021-04-23,2021-04-23,2021-04-24,2021-04-25,2021-04-26,2021-04-27,2021-04-29,2021-04-29,2021-04-29,2021-05-01,2021-05-02,2021-05-03,2021-05-04,2021-05-04,2021-05-05,2021-05-07,2021-05-08,2021-05-08,2021-05-08,2021-05-08,2021-05-09,2021-05-10,2021-05-12,2021-05-13,2021-05-14,2021-05-15,2021-05-15,2021-05-15,2021-05-16,2021-05-18,2021-05-18,2021-05-18,2021-05-20,2021-05-21,2021-05-22,2021-05-23,2021-05-23,2021-05-24,2021-05-25,2021-05-27,2021-05-28,2021-05-30,2021-05-30,2021-06-01,2021-06-01,2021-06-02,2021-06-03,2021-06-04,2021-06-05,2021-06-07,2021-06-08,2021-06-08,2021-06-10,2021-06-11,2021-06-13,2021-06-13,2021-06-14,2021-06-15,2021-06-15,2021-06-16,2021-06-17,2021-06-17,2021-06-17,2021-06-19,2021-06-21,2021-06-22,2021-06-23,2021-06-24,2021-06-25,2021-06-25,2021-06-26,2021-06-27,2021-06-28,2021-06-29,2021-06-29,2021-07-01,2021-07-02,2021-07-03,2021-07-03,2021-07-05,2021-07-06,2021-07-07,2021-07-09,2021-07-09,2021-07-10,2021-07-11,2021-07-12,2021-07-13,2021-07-14,2021-07-16,2021-07-17,2021-07-18,2021-07-20,2021-07-22,2021-07-23,2021-07-24,2021-07-26,2021-07-28,2021-07-29,2021-07-30,2021-07-31,2021-08-01,2021-08-01,2021-08-03,2021-08-03,2021-08-04,2021-08-06,2021-08-06,2021-08-06,2021-08-07,2021-08-08,2021-08-10,2021-08-11,2021-08-12,2021-08-13,2021-08-14,2021-08-15,2021-08-17,2021-08-18,2021-08-19,2021-08-20,2021-08-20,2021-08-21,2021-08-23,2021-08-24,2021-08-25,2021-08-27,2021-08-29,2021-08-31,2021-09-01,2021-09-02,2021-09-04,2021-09-04,2021-09-05,2021-09-07,2021-09-08,2021-09-09,2021-09-11,2021-09-12,2021-09-12,2021-09-14,2021-09-14,2021-09-15,2021-09-16,2021-09-18,2021-09-20,2021-09-20,2021-09-21,2021-09-23,2021-09-24,2021-09-26,2021-09-27,2021-09-28,2021-09-30,2021-10-01,2021-10-02,2021-10-04,2021-10-05,2021-10-06,2021-10-07,2021-10-07,2021-10-09,2021-10-10,2021-10-11,2021-10-13,2021-10-14,2021-10-16,2021-10-18,2021-10-19,2021-10-20,2021-10-22,2021-10-23,2021-10-24,2021-10-25,2021-10-27,2021-10-28,2021-10-29,2021-10-30,2021-11-01,2021-11-03,2021-11-03,2021-11-04,2021-11-05,2021-11-07,2021-11-08,2021-11-09,2021-11-10,2021-11-12,2021-11-13,2021-11-14,2021-11-15,2021-11-16,2021-11-17,2021-11-18,2021-11-20,2021-11-21,2021-11-22,2021-11-23,2021-11-24,2021-11-26,2021-11-27,2021-11-29,2021-12-01,2021-12-02,2021-12-02,2021-12-04,2021-12-05,2021-12-06,2021-12-08,2021-12-09,2021-12-10,2021-12-11,2021-12-13,2021-12-15,2021-12-16,2021-12-17,2021-12-18,2021-12-20,2021-12-21,2021-12-22,2021-12-23,2021-12-24,2021-12-25,2021-12-26,2021-12-27,2021-12-28,2021-12-29,2021-12-30,2021-12-30,2021-12-31,2021-12-31,2021-12-31,2021-12-31">
+						</activity-graph>
+					</div>
+				</section>
+
+				<!-- Projects -->
+
+				<h2 id="projects">My <span class="colored">Projects</span></h2>
+				<div class="divider ltr"></div>
+
+				<section class="projects">
+					<div class="project-1">
+						<img src="img/project-1.png" alt="">
+						<h3>Project <span class="colored"> Title</span></h3>
+					</div>
+					<div class="project-2">
+						<img src="img/project-2.png" alt="">
+						<h3>Project <span class="colored"> Title</span></h3>
+					</div>
+					<div class="project-3">
+						<img src="img/project-3.png" alt="">
+						<h3>Project <span class="colored"> Title</span></h3>
+					</div>
+					<div class="project-4">
+						<img src="img/project-4.png" alt="">
+						<h3>Project <span class="colored"> Title</span></h3>
+					</div>
+					<div class="project-5">
+						<img src="img/project-5.png" alt="">
+						<h3>Project <span class="colored"> Title</span></h3>
+					</div>
+					<div class="project-6">
+						<img src="img/project-6.png" alt="">
+						<h3>Project <span class="colored"> Title</span></h3>
+					</div>
+					<div class="project-7">
+						<img src="img/project-7.png" alt="">
+						<h3>Project <span class="colored"> Title</span></h3>
+					</div>
+				</section>
+
+
+				<!-- Blogs -->
+
+				<h2 id="blogs">My <span class="colored">Blogs</span></h2>
+				<div class="divider ltr"></div>
+
+				<section class="blogs">
+					<div class="blog-box">
+						<img src="img/blog-1.jpg" alt="">
+						<div>
+							<h3>Best Web Design Tools</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iusto sed sequi accusamus
+								est alias nisi natus mollitia</p>
+							<span class="link"><a href="#">Read More</a><ion-icon
+									name="caret-forward-outline"></ion-icon></span>
+						</div>
+					</div>
+					<div class="blog-box">
+						<img src="img/blog-1.jpg" alt="">
+						<div>
+							<h3>How to Become a Developer?</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iusto sed sequi accusamus
+								est alias nisi natus mollitia</p>
+							<span class="link"><a href="#">Read More</a><ion-icon
+									name="caret-forward-outline"></ion-icon></span>
+						</div>
+					</div>
+					<div class="blog-box">
+						<img src="img/blog-1.jpg" alt="">
+						<div>
+							<h3>ReactJs vs NextJS</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iusto sed sequi accusamus
+								est alias nisi natus mollitia</p>
+							<span class="link"><a href="#">Read More</a><ion-icon
+									name="caret-forward-outline"></ion-icon></span>
+						</div>
+					</div>
+					<div class="blog-box">
+						<img src="img/blog-1.jpg" alt="">
+						<div>
+							<h3>How to use Tailwind CSS?</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iusto sed sequi accusamus
+								est alias nisi natus mollitia</p>
+							<span class="link"><a href="#">Read More</a><ion-icon
+									name="caret-forward-outline"></ion-icon></span>
+						</div>
+					</div>
+				</section>
+
+				<!-- Testimonials -->
+
+				<h1>My <span class="colored">Testimonials</span></h1>
+				<div class="divider ltr"></div>
+
+				<section class="testimonials">
+					<div class="testimonial-box">
+						<h1>What <span class="colored">Clients Say About Me?</span></h1>
+					</div>
+					<div class="testimonial-box">
+						<img src="img/avatar.png" alt="">
+						<span>
+							<ion-icon name="star"></ion-icon>
+							<ion-icon name="star"></ion-icon>
+							<ion-icon name="star"></ion-icon>
+							<ion-icon name="star"></ion-icon>
+							<ion-icon name="star"></ion-icon>
+						</span>
+						<h3>Haris Zahid</h3> <i>Manager at Google Inc.</i>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iusto sed sequi accusamus est
+							alias nisi natus mollitia</p>
+					</div>
+					<div class="testimonial-box">
+						<img src="img/avatar.png" alt="">
+						<span>
+							<ion-icon name="star"></ion-icon>
+							<ion-icon name="star"></ion-icon>
+							<ion-icon name="star"></ion-icon>
+							<ion-icon name="star"></ion-icon>
+							<ion-icon name="star"></ion-icon>
+						</span>
+						<h3>Haris Zahid</h3> <i>Manager at Google Inc.</i>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iusto sed sequi accusamus est
+							alias nisi natus mollitia</p>
+					</div>
+					<div class="testimonial-box">
+						<img src="img/avatar.png" alt="">
+						<span>
+							<ion-icon name="star"></ion-icon>
+							<ion-icon name="star"></ion-icon>
+							<ion-icon name="star"></ion-icon>
+							<ion-icon name="star"></ion-icon>
+							<ion-icon name="star"></ion-icon>
+						</span>
+						<h3>Haris Zahid</h3> <i>Manager at Google Inc.</i>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iusto sed sequi accusamus est
+							alias nisi natus mollitia</p>
+					</div>
+				</section>
+
+				<!-- Contact -->
+
+				<h2 id="contact">Contact <span class="colored">Me</span></h2>
+				<div class="divider ltr"></div>
+
+				<section>
+					<iframe class="map" width="100%" hight="300" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.1892459969076!2d73.037219!3d33.7299222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbefce01e6917%3A0x3e66e0de3e2598c0!2sShah%20Faisal%20Masjid%2C%20Islamabad!5e0!3m2!1sen!2s!4v1753962737044!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					
+					<form action="#" class="contact">
+						<div>
+							<input type="text" class="input" name="firstname" placeholder="Your Name...">
+						</div>
+						<div>
+							<input type="text" class="input" name="lastname" placeholder="Your Lasts Name...">
+						</div>
+						<div>
+							<input type="email" class="input" name="firstname" placeholder="Your Email...">
+						</div>
+						<div>
+							<textarea class="input" rows="4" name="subject" placeholder="Write Something..."></textarea>
+						</div>
+						<div>
+							<button type="submit" class="submit">SEND</button>
+						</div>
+					</form>
+				</section>
+
+			</div>
+
+		</div>
+
+	</div>
+	</div>
+
+	<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
